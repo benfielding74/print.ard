@@ -25,3 +25,16 @@ h2 {
 .align {
     float: left;
 }
+
+.navbar.scrolled {
+    background: #dc1616;
+    transition: background 400ms;
+}
+
+#brand {
+    color: black;
+}
+
+#mainNavBar .nav-link {
+    color: black;
+}
