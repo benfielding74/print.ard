@@ -1,3 +1,5 @@
+
+
 body {
   font-family: 'Fira Sans', sans-serif;
 }
@@ -6,18 +8,13 @@ nav {
   background-color: #d2d20f;
 }
 
-/* header {
-    background: linear-gradient(175deg, #d2d20f 40%, #0bcef6 40%);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-} */
-
 h2 {
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+div .thumbnail {
+  margin: 0.7rem;
 }
 
 .logo {
@@ -42,12 +39,6 @@ h2 {
   color: black;
 }
 
-#emphasis {
-  font-style: bold;
-  color: #dc1616;
-}
-
-#bio {
-  font-style: italic;
-  margin: 2rem;
+#gallery {
+  margin: 4.5rem 1.2rem;
 }
