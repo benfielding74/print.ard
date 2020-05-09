@@ -43,6 +43,10 @@ h2 {
     color: black;
 }
 
+#gallery {
+    background-color: white;
+}
+
 #emphasis {
     font-style: bold;
     color: #dc1616;
@@ -50,6 +54,7 @@ h2 {
 
 
 #bio {
+    font-family: 'Helvetica', Arial, Helvetica, sans-serif;
     font-style: italic;
     margin: 2rem;
 }
