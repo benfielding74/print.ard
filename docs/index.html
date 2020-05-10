@@ -17,11 +17,6 @@
 
     <link rel="stylesheet" type="text/css" href="styles/indexPP.css">
 
-    <!--google fonts font-family:'Fira Sans', sans serif;-->
-
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
-
-
 
     <title>Print.ard</title>
 </head>
@@ -79,7 +74,7 @@
                         </div>
                     </div>
             
-                    <div id="card" class="card">
+                    <div id="flyers" class="card">
                                 <img src="indexPPimgs/wizard-prang.jpg" class="card-img-top" alt="Martha Plimpton 5 flyer">
                             <div class="card-body">
                                     <h4 class="card-title">Flyers</h4>
@@ -89,15 +84,35 @@
                              </div>
                     </div>
                         
-                    <div id="card" class="card">
-                            <img src="indexPPimgs/horse-under-water.jpg" class="card-img-top" alt="Martha Plimpton 5 flyer">
+                    <div id="scifi" class="card">
+                            <img src="indexPPimgs/horse-under-water.jpg" class="card-img-top" alt="Horse Under Water">
                         <div class="card-body">
                              <h4 class="card-title">Science Fiction</h4>
-                            <p></p>
+                            <p>Future shocks today!</p>
                                             <!-- <a href="#" class="btn btn-outline-success btn-sm">Add To Cart</a>
                                             <a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a> -->
                          </div>
                     </div>
+
+                    <div id="music" class="card">
+                        <img src="images/festival-1.jpg" class="card-img-top" alt="Festival goer graphic">
+                    <div class="card-body">
+                         <h4 class="card-title">Music And Popular Culture</h4>
+                        <p>A selection of works inspired by music and popular culture.</p>
+                                        <!-- <a href="#" class="btn btn-outline-success btn-sm">Add To Cart</a>
+                                        <a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a> -->
+                     </div>
+                </div>
+
+                <div id="vector" class="card">
+                    <img src="images/screen-shot-2012-11-20-at-22-23-21.png" class="card-img-top" alt="Masked man">
+                <div class="card-body">
+                     <h4 class="card-title">Vector Graphics</h4>
+                    <p></p>
+                                    <!-- <a href="#" class="btn btn-outline-success btn-sm">Add To Cart</a>
+                                    <a href="#" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a> -->
+                 </div>
+            </div>
             </div>
         </div>
 
@@ -112,23 +127,15 @@
         </div>
     </footer>
 
-    <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script>
-        $(function() {
-            $(document).scroll(function() {
-                var $nav = $("#mainNavBar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            });
-        });
-    </script>
+    <!--script for jQuery actions-->
+    <script type="text/javascript" src="scripts/universalJQ.js"></script>
     <!--script for my vanilla JS actions-->
     <script type="text/javascript" src="scripts/links.js"></script>
-
-
 </body>
 
 </html>
