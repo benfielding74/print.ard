@@ -31,6 +31,10 @@ div .thumbnail {
   transition: background 400ms;
 }
 
+.row {
+  justify-content: center;
+}
+
 #brand {
   color: black;
 }
@@ -39,6 +43,7 @@ div .thumbnail {
   color: black;
 }
 
-#gallery {
-  margin: 4.5rem 1.2rem;
+.gallery {
+  margin-top: 4rem;
+  background: url(/print.ard/docs/indexPPimgs/logo2.png) center center no-repeat;
 }

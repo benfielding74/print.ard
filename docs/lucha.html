@@ -15,7 +15,7 @@
 
     <!--my stylesheet-->
 
-    <link rel="stylesheet" type="text/css" href="styles/galleries.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/galleries.css">
 
     <title>Print.ard/Lucha Libre</title>
 </head>
@@ -45,23 +45,36 @@
         </div> -->
     </nav>
 
-    <section id="gallery">
+    <section class="gallery">
         <div class="row">
 			
-				<div class="thumbnail"><img src="images/lucha-libre.jpg" class="img-fluid">
+				<div class="thumbnail" id="luchaLibre"><img src="assets/images/lucha-libre.jpg" class="img-fluid" data-toggle="modal" data-target="#imageModal">
 				</div>
 				
-				<div class="thumbnail"><img src="images/cuchillo1.jpg" class="img-fluid">
+				<div class="thumbnail" id="cuchillo"><img src="assets/images/cuchillo1.jpg" class="img-fluid" data-toggle="modal" data-target="#imageModal">
 				</div>
 				
-				<div class="thumbnail"><img src="images/jlo-biafra1.jpg" class="img-fluid">
+				<div class="thumbnail" id="jLoBiafra"><img src="assets/images/jlo-biafra1.jpg" class="img-fluid" data-toggle="modal" data-target="#imageModal">
 				</div>
 				
-				<div class="thumbnail"><img src="images/deviac1.jpg" class="img-fluid">
+				<div class="thumbnail" id="deviac"><img src="assets/images/deviac1.jpg" class="img-fluid" data-toggle="modal" data-target="#imageModal">
 				</div>
 				
-				<div class="thumbnail"><img src="images/b-x31.jpg" class="img-fluid">
-				</div>
+				<div class="thumbnail" id="bx31"><img src="assets/images/b-x31.jpg" class="img-fluid" data-toggle="modal" data-target="#imageModal">
+                </div>
+                <div class="modal" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModal modalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-md modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header" id="modalTitle">
+       
+      </div>
+      <div class="modal-body" id="modalImage">
+      
+      </div>
+      
+    </div>
+  </div>
+</div>	
 				
 			
     </section>
@@ -75,11 +88,13 @@
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
      <!--script for jQuery actions-->
-     <script type="text/javascript" src="scripts/universalJQ.js"></script>
+     <script type="text/javascript" src="assets/scripts/universalJQ.js"></script>
+  <script type="text/javascript" src="assets/scripts/galleries.js"></script>
 
 </body>
 
